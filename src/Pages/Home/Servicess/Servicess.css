@@ -1,0 +1,12 @@
+
+.serviceContainer .card{
+    border: 0;
+    transition: .4s ease-in-out;
+}
+
+.serviceContainer .card:hover{
+    background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+    color: #fff !important;
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+}

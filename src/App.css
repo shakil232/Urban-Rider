@@ -1,5 +1,32 @@
 
 
+
+
+/* custom-css    */
+.btn-main
+{
+  background-color: orangered !important;
+  color: white !important;
+}
+.orange-bg
+{
+  background-color: orangered;
+}
+.text-orange
+{
+  color: orangered;
+}
+.gray-bg
+{
+  background-color: lightgray;
+}
+.cursor
+{  
+    font-weight: 700;
+    color: orangered;
+    cursor: pointer;
+}
+
 .App-link {
   color: #61dafb;
 }
