@@ -14,7 +14,6 @@
 - After you successfully Sign up or Sign in to the website, the Destination page will unlock for user.
 - The website is dynamically change route with url.
 - In the Destination page, there has a Google Map and a input field for search for user destination. User can enter pick from and pick to and also a date to search your destination..
-- Google map it's just a image and Search result is hard coded text.
 
 
 
@@ -23,7 +22,6 @@
 - **React-Bootstrap**
 - **CSS3**
 - **Firebase Authentication**
-
 
 
 <hr/>
