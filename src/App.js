@@ -12,46 +12,34 @@ import Destination from "./Pages/Destination/Destination";
 import NotFount from "./Pages/NotFount/NotFount";
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
-// import AuthProvider from "./Context/AuthProvider";
-// import PrivateRoute from "./Pages/PrivateRoute/PrivateRoute";
+import AuthProvider from "./Context/AuthProvider";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
+
 
 
 function App() {
 
 
   return (
+
+    <AuthProvider>
       <Router>
         <Routes>
           {/* normal-route  */}
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/destination" element={<Destination />} />
-          {/*  404 */}
+          {/* PrivateRoute */}
+          <Route element={<PrivateRoute />} >
+            <Route path="/destination" element={<Destination />} />
+          </Route>
+          {/* exact and 404 */}
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFount />} />
         </Routes>
       </Router>
- 
-
-    // <AuthProvider>
-    //   <Router>
-    //     <Routes>
-    //       {/* normal-route  */}
-    //       <Route path="/home" element={<Home />} />
-    //       <Route path="/contact" element={<Contact />} />
-    //       <Route path="/about" element={<About />} />
-    //       <Route path="/login" element={<Login />} />
-    //       {/* PrivateRoute */}
-    //       <Route element={<PrivateRoute />} >
-    //         <Route path="/destination" element={<Destination />} />
-    //       </Route>
-    //       {/* exact and 404 */}
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="*" element={<NotFount />} />
-    //     </Routes>
-    //   </Router>
-    // </AuthProvider>
+    </AuthProvider>
   );
 }
 
