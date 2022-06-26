@@ -1,19 +1,19 @@
 const serviceInformation = [
     {
         name: 'Bike',
-        image: 'https://i.ibb.co/wdFXc1y/bike.png',
+        image: 'https://i.ibb.co/NKyxd3F/bike.png',
     },
     {
         name: 'Car',
-        image: 'https://i.ibb.co/6rsn70Y/private-Car.png',
+        image: 'https://i.ibb.co/LP7K5tP/car.png',
     },
     {
         name: 'Bus',
-        image: 'https://i.ibb.co/3yrPnQx/bus.png',
+        image: 'https://i.ibb.co/j5M0DLJ/bus.png',
     },
     {
         name: 'Train',
-        image: 'https://i.ibb.co/fkxwwrC/train.png',
+        image: 'https://i.ibb.co/qFwzKsK/train.png',
     }
 ]
 
