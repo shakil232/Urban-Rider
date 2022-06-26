@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from '../Shared/NabBar/NabBar';
-import Map from '../../images/Map.png';
 import { Col, Container, Row } from 'react-bootstrap';
 import DestinationDetails from '../DestinationDetails/DestinationDetails';
 
@@ -15,7 +14,7 @@ const Destination = () => {
                         <DestinationDetails />
                     </Col>
                     <Col md={6} className="offset-md-1" >
-                        <img className="img-fluid" src={Map} alt="Map" />
+                        <img className="img-fluid " src="https://i.ibb.co/Vp2ymPw/Map.png" alt="Map" />
                     </Col>
                 </Row>
             </Container>

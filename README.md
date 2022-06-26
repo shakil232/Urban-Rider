@@ -9,11 +9,11 @@
 ## About & Features
 
 
-- **Urban-Rider** is a website of ride share online. The website is built with React, Firebase, React-Router and React-Bootstrap. And has been used Authentication of Firebase .
-- If user click on the vehicle icon, user will be taken to the login page for Sign up or Sign in to view the destination page. Then user must be Sign up and Login to view the destination page..
-- After you successfully Sign up or Sign in to the website, the Destination page will unlock for user.
-- The website is dynamically change route with url.
-- In the Destination page, there has a Google Map and a input field for search for user destination. User can enter pick from and pick to and also a date to search your destination..
+- **Urban-Rider**  is a website of ride share online. The website is built with React, Firebase, React-Router, and React-Bootstrap. And has been used Authentication of Firebase .
+- If the user clicks on the vehicle icon, the user will be taken to the login page for Sign up or Sign in to view the destination page. Then the user must be Sign up and log in to view the destination page.
+- After you successfully Sign up or Sign in to the website, the Destination page will unlock for the user.
+- The website dynamically changes route with the URL.
+- On the Destination page, there has a Google Map and an input field for searching for a user destination. Users can enter pick from and pick to and also a date to search your destination.
 
 
 
