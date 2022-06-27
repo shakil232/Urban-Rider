@@ -9,7 +9,7 @@ const About = () => {
             <Container className="mt-5 pt-5">
                 <main className="row g-4">
                     <div className="col-md-4 offset-md-1">
-                        <img className="img-fluid rounded-3" src="https://i.ibb.co/GHDT0RQ/urban.jpg" alt="aboutUs" />
+                        <img className="img-fluid rounded-3" src="https://i.ibb.co/TTKGkfR/about.jpg" alt="aboutUs" />
                     </div>
                     <div className="col-md-6 mx-auto">
                         <h2 className="text-muted"> Urban Rider
