@@ -16,7 +16,7 @@ const Servicess = () => {
             :
             <section className="mt-5 serviceContainer">
                 <div className="d-flex justify-content-center align-items-center">
-                    <div className="row  p-5 g-3">
+                    <div className="row p-5 g-4">
                         {
                             serviceInformation.map(service =>
                                 <ServicesCard

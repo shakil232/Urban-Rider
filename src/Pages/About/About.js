@@ -9,13 +9,14 @@ const About = () => {
             <Container className="mt-5 pt-5">
                 <main className="row g-4">
                     <div className="col-md-4 offset-md-1">
-                        <img className="img-fluid " src="https://i.ibb.co/346j4jp/urban-about.jpg" alt="aboutUs" />
+                        <img className="img-fluid rounded-3" src="https://i.ibb.co/bKDbZgJ/urban.jpg" alt="aboutUs" />
                     </div>
-                    <div className="col-md-6 m-auto">
+                    <div className="col-md-6 mx-auto">
                         <h2 className="text-muted"> Urban Rider
                         </h2>
                         <p className="mt-4 text-muted text-justify">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi libero non sapiente odio fugit alias inventore quisquam dolorum assumenda explicabo adipisci vero, deserunt a in incidunt. Ex officiis necessitatibus aliquid ducimus libero velit illum ab voluptas aut vero! Rem, reprehenderit culpa, ducimus molestias nemo tempore ea unde praesentium vel quibusdam voluptate, obcaecati accusamus assumenda. Dolores temporibus natus deserunt ea sit.
+                            Urban-Rider is a website of ride share online. The website is built with React, Firebase, React-Router, and React-Bootstrap. And has been used Authentication of Firebase .
+                            <br /> If the user clicks on the vehicle icon, the user will be taken to the login page for Sign up or Sign in to view the destination page. Then the user must be Sign up and log in to view the destination page
                         </p>
 
                     </div>

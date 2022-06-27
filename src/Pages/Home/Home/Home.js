@@ -5,11 +5,11 @@ import Servicess from '../Servicess/Servicess'
 
 const Home = () => {
     return (
-        <section style={{ height: '630px' }} className="home-bg">
-            <main className='container'>
+        <section className="home-bg">
+            <div className='container' >
                 <NavBar />
                 <Servicess />
-            </main>
+            </div>
         </section>
     );
 };

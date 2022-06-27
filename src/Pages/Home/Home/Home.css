@@ -1,6 +1,15 @@
-.home-bg
-{
+.home-bg {
+    height: 635px;
     background-image: url('https://i.ibb.co/xqswm1k/Bg.png');
     background-position: bottom center;
-    background-size: 1370px 630px;
-} 
+    background-size: 1370px 1310px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+    .home-bg {
+        height: 1310px;
+        background-size: 1370px 1310px;
+    }
+
+}
+
